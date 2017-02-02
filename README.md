@@ -1,0 +1,2 @@
+# tic-Tac-toe
+REPOSITORY FOR PRACTICE MY SKILLS AND TRY TO BUILD tic Tac toe WITH JavaScript 
