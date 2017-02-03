@@ -3,28 +3,40 @@
 <head>
   <title>tic-Tac-toe</title>
   <link type="text/css" rel="stylesheet" href="index.css">
-  <script type="text/javascript" src="field.js" defer></script>
+  <script type="text/javascript" src="ControlPanel.js" defer></script>
+  <script type="text/javascript" src="Field.js" defer></script>
   <script type="text/javascript" src="index.js" defer></script>
 </head>
 <body>
-  <h2>Welcome to</h2>
   <h1>tic-Tac-toe</h1>
-  <table>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+  <div class="control-panel">
+    <div class="welcome-panel">
+      <h2>Welcome</h2>
+      <button class="start-game">Start Game</button>
+    </div>
+    <div class="ask-user-name-panel">
+      <h2>Input your name</h2>
+      <input type="text" placeholder="User's name'">
+    </div>
+  </div>
+  <div class="field">
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
